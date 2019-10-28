@@ -5,7 +5,8 @@ require 'insert.php';
 
 
 $con = openConnection();
-$sql = "   SELECT studentID * FROM student  ";
+$id = $_GET['user'];
+$sql = "SELECT * FROM student where studentID=:id";
 $result = $con->query($sql);
 
 
