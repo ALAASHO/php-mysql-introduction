@@ -5,7 +5,7 @@ function openConnection(){
    // Try to figure out what these should be for you
     $dbhost    = "localhost";
     $dbuser    = "alaa";
-    $dbpass    = "100200300asAS"; // Password
+    $dbpass    = "123456789"; // Password
     $db        = "BECODE"; // DataBase name
 
     // Try to understand what happens here
@@ -24,7 +24,7 @@ openConnection();
   /*
 $dsn = 'mysql:host=localhost;dbname=BECODE';
 $user = 'alaa';
-$password = '100200300asAS';
+$password = '123456';
 
 try {
     $db = new PDO($dsn, $user, $password);
